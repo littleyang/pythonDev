@@ -45,8 +45,6 @@ show_result()
 
 def hello():
     print "hello"
-
-
 #print quick_sort(numbers)
 #binary_search(37,numbers)
 #print numbers[0]
