@@ -29,7 +29,7 @@ def quick_sort(source,low =0,high = None):
       while i<j and source[i] <= s:
         i = i+1
       if i<j:
-        source[j] = source[i]
+        source[j]= source[i]
         j = j - 1
       source[i] = s
       quick_sort(source, low, i - 1)
@@ -43,10 +43,10 @@ def show_result():
 
 show_result()
 
-
+def hello():
+    print "hello"
 #print quick_sort(numbers)
 #binary_search(37,numbers)
 #print numbers[0]
-
 
 
